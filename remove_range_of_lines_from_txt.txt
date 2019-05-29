@@ -1,5 +1,5 @@
 @cmd
-USing Vim to remove lines[range of line] from large text file using bash
+Using Vim to remove lines[range of line] from large text file using bash
 
 ex -sc '1d2000|x' file
 
