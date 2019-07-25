@@ -1,0 +1,3 @@
+
+Convert all .jpg to .png of current folder:
+find . -name "*.jpg" -exec mogrify -format png {} \;
