@@ -5,17 +5,16 @@ sudo python3 -m venv $pwd venvpy3
 source venvpy3/bin/activate
 virtualenv venv -p python3
 
-
 # install all default requirements
 python3 -m pip install --ignore-installed -r requirements.txt
 sudo pip3 install -r requirements.txt
 
+# Collect all requirements from from current venv directory
+pip freeze > requirements.txt
+
 # with system package
 sudo python3 -m venv --system-site-packages $pwd venvpy3
 virtualenv --system-site-packages
-
-
-
 
 <script src="https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b.js"></script>
 
