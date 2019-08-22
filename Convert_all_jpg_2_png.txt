@@ -1,6 +1,8 @@
 
 Convert all .jpg to .png of current folder to output folder:
-find . -name "*.jpg" -exec mogrify -format png {} \;
+First create a output folder/dir to store out files.
+
+
 
 find . -name "*.jpg" -exec mogrify -format png -path output/ {} \;
 
