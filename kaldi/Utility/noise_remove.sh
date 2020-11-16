@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Give sample noise(*.wav) in dir "noise_sound"
 # Create "wav_decode" folder
 # this .sh will generate clean wavs in dir "wav_decode" .
@@ -22,6 +23,3 @@ if [ "$(ls -A $DIR)" ]; then
 fi
 
 exit 1
-
-
-# test change 1
