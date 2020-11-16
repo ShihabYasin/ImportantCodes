@@ -1,5 +1,7 @@
 #!/bin/bash
-# Give sample noise in dir "noise_sound", this .sh will generate clean wavs in dir "wav_decode" .
+# Give sample noise(*.wav) in dir "noise_sound"
+# Create "wav_decode" folder
+# this .sh will generate clean wavs in dir "wav_decode" .
 # Output file format: {prev_name}_clean.wav
 
 FILE="noise_sound/noise.wav"
