@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 CUDA=True TRANSLATION_ENV=dev MODEL=mbart gunicorn -w 1 -b 0.0.0.0:9342 app:app --timeout 0 -k gevent

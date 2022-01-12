@@ -1,17 +1,18 @@
-#!/bin/bash
+#!/bin/bash  
 ## git upload auto script - example script
-
-## Pass repo_path as 1st argument
-# example usage: sudo ./git_commit_auto_script.sh  https://github.com/<UserName>/<RepoName>
+## CLASS_PROGRAMMING 
+## command line param, example for a repo:   $1 => username/username.github.io.git
 
 PATH_REPO=$1
 
-cd $PATH_REPO
+git remote set-url origin git@github.com:$1
+
+#cd $PATH_REPO
 git add .
 
-currentDate=$(date +"%Y-%m-%d %T")
-git commit -m currentDate
-git pull origin master
-git push origin master
+currentDate=`date +"%Y-%m-%d %T"`
+git commit -m  currentDate
+git pull origin main
+git push origin main
 
 exit 1
