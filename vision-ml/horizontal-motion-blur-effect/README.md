@@ -7,12 +7,13 @@ Motion Blur effect or Speed impact can be controlled changing "size" in code.
 size = 10 # Speed
 ```
 
-
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/1.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/2.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/3.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/4.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/5.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/6.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/7.PNG)
-![alt text](https://github.com/ShihabYasin/PLASMA-PHYSICS/blob/master/8.PNG)
+clear.png
+![clear.png](https://github.com/ShihabYasin/ImportantCodes/blob/master/vision-ml/horizontal-motion-blur-effect/images/clear.png)
+test.png
+![test.png](https://github.com/ShihabYasin/ImportantCodes/blob/master/vision-ml/horizontal-motion-blur-effect/images/test.png)
+test_0.png
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/vision-ml/horizontal-motion-blur-effect/images/test_0.png)
+test_final.png
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/vision-ml/horizontal-motion-blur-effect/images/test_final.png)
+test_out.png
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/vision-ml/horizontal-motion-blur-effect/images/test_out.png)
