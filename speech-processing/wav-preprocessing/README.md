@@ -3,11 +3,11 @@ Some preprocessing of wavs like trimming terminal/mid silence, removing loud noi
 
 
 ### Edited/clipped portion(colored) on original signal.
-![alt text](https://github.com/ShihabYasin/wav-preprocessing/blob/master/1.png)
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/speech-processing/wav-preprocessing/1.png)
 
-![alt text](https://github.com/ShihabYasin/wav-preprocessing/blob/master/2.png)
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/speech-processing/wav-preprocessing/2.png)
 
-![alt text](https://github.com/ShihabYasin/wav-preprocessing/blob/master/3.png)
+![alt text](https://github.com/ShihabYasin/ImportantCodes/blob/master/speech-processing/wav-preprocessing/3.png)
 
 
 ## audio-lib 
