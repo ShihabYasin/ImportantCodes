@@ -96,13 +96,17 @@ def check_text_file_unicode_correction(file_to_check: str = 'abc.txt', filtered_
             print (e, open ('log_large_text_file_reader.txt', 'a'))
             yield (f'error')
 
+    _file_object = open (os.path.join (filtered_files_dir, os.path.basename (file_to_check)), 'a')
+
     for line in _large_text_file_reader (file_to_check):
         if "error" in line:
             # print("error")
             continue
-        for chars in line:
-            print (chars, end='', file=open (os.path.join (filtered_files_dir, os.path.basename (file_to_check)), 'a'))
-
+        # for chars in line:
+        #     print (chars, end='', file=open (os.path.join (filtered_files_dir, os.path.basename (file_to_check)), 'a'))
+        elif line and line.strip ():
+            _file_object.write (line + '\n')
+    _file_object.close ()
 
 if __name__ == "__main__":
 
