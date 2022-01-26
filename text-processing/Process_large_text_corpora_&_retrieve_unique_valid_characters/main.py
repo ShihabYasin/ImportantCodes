@@ -17,7 +17,7 @@ def extract_all_chars(batch):
     return {"vocab": [vocab], "all_text": [all_text]}
 
 
-def prepare_vocab(data_dir: str = "utt_spk_text.tsv", prefix_audio_path=None, audio_file_type: str = ".wav",
+def prepare_vocab(data_dir: str = "utt_spk_text.tsv", prefix_audio_path="", audio_file_type: str = ".wav",
                   get_all_chars=extract_all_chars, output_json_file="vocab.json") -> dict:
     """
     Prepare the vocabulary (collection of all letters )
