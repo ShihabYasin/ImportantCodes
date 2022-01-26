@@ -43,7 +43,8 @@ def prepare_vocab(data_dir: str = "utt_spk_text.tsv", prefix_audio_path="", audi
         vocab_dict["[UNK]"] = len (vocab_dict)
         vocab_dict["[PAD]"] = len (vocab_dict)
 
-        print (vocab_dict, file=open (output_json_file, 'w'))
+        json.dump (vocab_dict, open (output_json_file, 'w'), ensure_ascii=False, indent=4)
+        # print (vocab_dict, file=open (output_json_file, 'w'))
 
     elif ".txt" in data_dir:
 
